@@ -1,0 +1,116 @@
+/* -- logo --*/
+
+#logo {
+    width: 69px;
+    height: 71px;
+}
+
+#logo .cls-1,
+#logo .cls-2 {
+    fill: none;
+    stroke-width: 2px;
+}
+
+#logo .cls-1 {
+    stroke: #fff;
+}
+
+#logo .cls-1,
+#logo .cls-2,
+#logo .cls-3 {
+    fill-rule: evenodd;
+}
+
+#logo .cls-2 {
+    stroke: #f6f7fc;
+}
+
+#logo .cls-3,
+#logo .cls-4 {
+    fill: #fff;
+}
+
+
+/* -- logo-gray --*/
+
+#logo-grey {
+    width: 69px;
+    height: 71px;
+}
+
+#logo-grey .cls-1,
+#logo-grey .cls-2 {
+    fill: none;
+    stroke-width: 2px;
+}
+
+#logo-grey .cls-1 {
+    stroke: #3c3c3c;
+}
+
+#logo-grey .cls-1,
+#logo-grey .cls-2,
+#logo-grey .cls-3 {
+    fill-rule: evenodd;
+}
+
+#logo-grey .cls-2 {
+    stroke: #3c3c3c;
+}
+
+#logo-grey .cls-3,
+#logo-grey .cls-4 {
+    fill: #3c3c3c;
+}
+
+
+/* -- scroll --*/
+
+#scroll {
+    width: 11.5px;
+    height: 18.5px;
+}
+
+#scroll .cls-1 {
+    fill: #fff;
+    fill-rule: evenodd;
+}
+
+
+/* -- design --*/
+
+#design {
+    width: 79.969px;
+    height: 83.03px;
+}
+
+#design.cls-1 {
+    fill: #3c3c3c;
+    fill-rule: evenodd;
+}
+
+
+/* -- development --*/
+
+#development {
+    width: 79px;
+    height: 76px;
+}
+
+#development.cls-1 {
+    fill: #3c3c3c;
+    fill-rule: evenodd;
+}
+
+
+/* -- product-management --*/
+
+#product-management {
+    width: 78.969px;
+    height: 91px;
+}
+
+#product-management.cls-1 {
+    fill: #3c3c3c;
+    fill-rule: evenodd;
+}

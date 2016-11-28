@@ -1,0 +1,273 @@
+/* Global */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+* {
+    transition: all .25s ease-in;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font: 300 16px/1.5 'Lato', Arial, sans-serif;
+    color: #3c3c3c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    letter-spacing: .16em;
+    line-height: 1.3;
+}
+
+p {
+    margin: 0 0 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header */
+
+.ba-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.ba-container--hero {
+    max-width: 640px;
+}
+
+.ba-header {
+    background: #ABB5CA url(../images/hero-bg.jpg) 100% no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 284px 0 384px;
+    min-height: 100vh;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2;
+    position: relative;
+}
+
+.ba-logo {
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+.logo {
+    width: 69px;
+    height: 71px;
+}
+
+.ba-header__title {
+    text-transform: uppercase;
+    font-size: 54px;
+    margin: 0 0 35px;
+}
+
+.ba-scroll {
+    display: block;
+    position: absolute;
+    bottom: 115px;
+    left: 50%;
+    margin-left: -12px;
+}
+
+.scroll {
+    width: 23px;
+    height: 37px;
+}
+
+.ba-scroll:hover {
+    opacity: .5;
+}
+
+
+/* About Us */
+
+.ba__about {
+    padding: 160px 0;
+}
+
+.ba-box {
+    border: 2px solid #3c3c3c;
+    border-width: 0 2px 2px;
+    padding: 70px 180px 26px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+}
+
+.ba-box:before,
+.ba-box:after {
+    display: block;
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #3c3c3c;
+    width: 22%;
+    top: 0;
+}
+
+.ba-box:before {
+    left: 0;
+}
+
+.ba-box:after {
+    right: 0;
+}
+
+.ba-box:last-child {
+    margin-bottom: 0;
+}
+
+.ba-box--light {
+    border-color: #FFF;
+}
+
+.ba-box--light:before,
+.ba-box--light:after {
+    background-color: #FFF;
+}
+
+.ba-box__title {
+    font-size: 34px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 24%;
+    top: 0;
+    margin: 0;
+    text-align: center;
+    width: 52%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
+
+/* Services */
+
+.ba-section {
+    padding: 130px 0 110px;
+}
+
+.ba-section--services {
+    color: #FFF;
+    background: #ABB5CA url(../images/services.jpg) 50% no-repeat;
+    background-size: cover;
+}
+
+
+/* What We Do */
+
+.ba-box__item {
+    padding-top: 45px;
+    font-size: 14px;
+}
+
+.ba-box__link {
+    display: inline-block;
+}
+
+.ba-box__icon {
+    width: 80px;
+    height: 100px;
+}
+
+.ba-box__subtitle {
+    text-transform: uppercase;
+    margin: 35px 0;
+    font-size: 20px;
+}
+
+
+/* Our Works */
+
+.ba-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.ba-grid__item {
+    position: relative;
+    padding: 1px;
+}
+
+.ba-grid__img1 {
+    max-height: 237px;
+    max-width: 550px;
+    width: 28vw;
+}
+
+.ba-grid__img2 {
+    max-height: 237px;
+    max-width: 802px;
+    width: 41vw;
+}
+
+.ba-grid__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 34px;
+    bottom: 0px;
+    left: 35px;
+    position: absolute;
+}
+
+
+/* Contact Us */
+
+.ba-section--contact {
+    padding: 130px 0 60px;
+}
+
+.ba-box__btn {
+    display: block;
+    width: 395px;
+    line-height: 54px;
+    margin: 0 auto 25px;
+    background-color: #3c3c3c;
+    border: 2px solid #3c3c3c;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .16em;
+    cursor: pointer;
+}
+
+.ba-box__btn:hover {
+    background-color: #fff;
+    border: 2px solid #3c3c3c;
+    color: #3c3c3c;
+    font-weight: 600;
+    letter-spacing: .16em;
+}
+
+
+/* Footer */
+
+.ba-footer {
+    margin: 0 auto 65px;
+    text-align: center;
+}
+
+.logo-grey {
+    width: 34px;
+    height: 37px;
+    margin: 0px 35px;
+    vertical-align: middle;
+}
